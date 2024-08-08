@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 85px;
+}
+
+form{
+    background-color: orange ;
+    border-radius: 19px;
+    
+}
+.container{
+    background-color: orange;
+    padding : 50px;
+    border-radius: 20px;
+}
+input{
+    border-radius: 7px;
+}
+button{
+    border-radius: 7px;
+    border-color: brown;
+    background-color: rgb(112, 185, 112);
+}
