@@ -4,21 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            margin-left: 300px; 
+            margin-right: 300px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .head {
+            text-align: center;
+        }
+        .user {
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+        span {
+            font-weight: lighter;
+            padding-bottom: 2px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        table th, table td {
+            padding: 8px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f4f4f4;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
+        <div class="head">
+            <h1>MOVIE THEATER</h1>
+            <h3 style="color: gray;">Xyz Complex, Near Abc Efg Road <br>Hij</h3>
+        </div>
+        <hr>
         <div class="user">
-            <h3>uerrname: <span id="val"></span></h3>
+            <h3>Username : <span id="val"></span></h3>
         </div>
         <div class="user">
             <h3>Email : <span id="val1"></span></h3>
         </div>
         <div class="user">
-            <h3>Phone Number : <span id="val2"></span></h3>
+            <h3>Phone Number: <span id="val2"></span></h3>
         </div>
         <div class="user">
-            <h3>Movie name : <span id="val3"></span></h3>
+            <h3>Movie Name : <span id="val3"></span></h3>
         </div>
+        <hr>
+        <table>
+            <tr>
+                <th>Sl.No</th>
+                <th>Movie Name</th>
+                <th>Seat</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Movie Title 1</td>
+                <td>A1</td>
+                <td>$12</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Movie Title 2</td>
+                <td>B2</td>
+                <td>$15</td>
+            </tr>
+        </table>
         <script src="form1.js"></script>
     </div>
 </body>
